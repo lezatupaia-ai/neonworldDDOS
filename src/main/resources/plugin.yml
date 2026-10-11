@@ -1,0 +1,16 @@
+name: NeonAntiDDoS
+version: 1.0.0
+main: ru.neonworld.antiddos.NeonAntiDDoS
+api-version: 1.16
+author: NeonWorld
+description: Защита от DDoS-атак ботами
+commands:
+  neonddos:
+    description: Управление анти-DDoS
+    usage: /neonddos <reload|status|clear|whitelist>
+    aliases: [naddos, addos]
+permissions:
+  neonddos.admin:
+    default: op
+  neonddos.bypass:
+    default: op
